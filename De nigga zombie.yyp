@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Anotações","folderPath":"folders/Anotações.yy","name":"Anotações","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Caminhos","folderPath":"folders/Caminhos.yy","name":"Caminhos","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,14 +35,18 @@
   },
   "name":"De nigga zombie",
   "resources":[
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_zumbi","path":"objects/obj_zumbi/obj_zumbi.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"teste_rm","path":"rooms/teste_rm/teste_rm.yy",},},
+    {"id":{"name":"player_spr","path":"sprites/player_spr/player_spr.yy",},},
+    {"id":{"name":"spr_zumbi","path":"sprites/spr_zumbi/spr_zumbi.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"teste_rm","path":"rooms/teste_rm/teste_rm.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
