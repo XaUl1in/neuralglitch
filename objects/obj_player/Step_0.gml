@@ -1,4 +1,4 @@
-// Evento Step
+  // Evento Step
 
 // Movimento vertical
 var up = keyboard_check(ord("W")) || keyboard_check(vk_up);
