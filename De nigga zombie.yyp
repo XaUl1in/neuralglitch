@@ -40,6 +40,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"teste_rm","path":"rooms/teste_rm/teste_rm.yy",},},
     {"id":{"name":"player_spr","path":"sprites/player_spr/player_spr.yy",},},
+    {"id":{"name":"spr_inventario","path":"sprites/spr_inventario/spr_inventario.yy",},},
     {"id":{"name":"spr_zumbi","path":"sprites/spr_zumbi/spr_zumbi.yy",},},
   ],
   "resourceType":"GMProject",
