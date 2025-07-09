@@ -1,11 +1,20 @@
 // Evento Step
-var mov_y = keyboard_check(ord("S")) - keyboard_check(ord("W"));
-var mov_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 
+// Movimento vertical
+var up = keyboard_check(ord("W")) || keyboard_check(vk_up);
+var down = keyboard_check(ord("S")) || keyboard_check(vk_down);
+var mov_y = down - up;
+
+// Movimento horizontal
+var right = keyboard_check(ord("D")) || keyboard_check(vk_right);
+var left = keyboard_check(ord("A")) || keyboard_check(vk_left);
+var mov_x = right - left;
+
+// Aplicar movimento
 x += mov_x * player_speed;
 y += mov_y * player_speed;
 
-//verificação de vida
+// Verificação de vida
 if (vida <= 0) {
-    instance_destroy(); // Ou você pode fazer ir pra tela de game over
+    instance_destroy(); // Ou vá para a tela de game over
 }
