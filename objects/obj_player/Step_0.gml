@@ -18,3 +18,14 @@ y += mov_y * player_speed;
 if (vida <= 0) {
     instance_destroy(); // Ou vá para a tela de game over
 }
+
+//so atira se tiver arma
+if (has_gun && mouse_check_button_pressed(mb_left)) {
+    var bala = instance_create_layer(obj_arma.x, obj_arma.y, "Instances", obj_bala);
+    bala.direction = point_direction(obj_arma.x, obj_arma.y, mouse_x, mouse_y);
+}
+
+//mudar spr se tiver arma
+if(has_gun){
+	sprite_index = player_com_arma_spr
+}
