@@ -10,8 +10,8 @@
   "name":"obj_bala",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Armas",
+    "path":"folders/Objetos/Armas.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +30,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_bala",
     "path":"sprites/spr_bala/spr_bala.yy",

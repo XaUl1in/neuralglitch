@@ -1,4 +1,4 @@
-zumbi_speed = 1.5;
+zumbi_speed = 0.5;
 
 //sistema de vida e dano
 vida = 50;
