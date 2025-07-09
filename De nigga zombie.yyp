@@ -35,9 +35,9 @@
   },
   "name":"De nigga zombie",
   "resources":[
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_zumbi","path":"objects/obj_zumbi/obj_zumbi.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"teste_rm","path":"rooms/teste_rm/teste_rm.yy",},},
     {"id":{"name":"player_spr","path":"sprites/player_spr/player_spr.yy",},},
     {"id":{"name":"spr_inventario","path":"sprites/spr_inventario/spr_inventario.yy",},},
@@ -47,7 +47,6 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"teste_rm","path":"rooms/teste_rm/teste_rm.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
