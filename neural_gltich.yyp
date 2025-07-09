@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"De nigga zombie",
+  "%Name":"neural_gltich",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -37,13 +37,14 @@
   "MetaData":{
     "IDEVersion":"2024.13.1.193",
   },
-  "name":"De nigga zombie",
+  "name":"neural_gltich",
   "resources":[
     {"id":{"name":"obj_arma","path":"objects/obj_arma/obj_arma.yy",},},
     {"id":{"name":"obj_bala","path":"objects/obj_bala/obj_bala.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_dia","path":"objects/obj_dia/obj_dia.yy",},},
+    {"id":{"name":"obj_inventario","path":"objects/obj_inventario/obj_inventario.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_zumbi","path":"objects/obj_zumbi/obj_zumbi.yy",},},
     {"id":{"name":"teste_rm","path":"rooms/teste_rm/teste_rm.yy",},},
@@ -51,6 +52,7 @@
     {"id":{"name":"spr_arma","path":"sprites/spr_arma/spr_arma.yy",},},
     {"id":{"name":"spr_bala","path":"sprites/spr_bala/spr_bala.yy",},},
     {"id":{"name":"spr_inventario","path":"sprites/spr_inventario/spr_inventario.yy",},},
+    {"id":{"name":"spr_seletorinventario","path":"sprites/spr_seletorinventario/spr_seletorinventario.yy",},},
     {"id":{"name":"spr_testecena","path":"sprites/spr_testecena/spr_testecena.yy",},},
     {"id":{"name":"spr_zumbi","path":"sprites/spr_zumbi/spr_zumbi.yy",},},
   ],

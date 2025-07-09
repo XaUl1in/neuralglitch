@@ -10,8 +10,8 @@
   "name":"obj_inventario",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"controladores",
+    "path":"folders/Objetos/controladores.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_inventario",
-    "path":"sprites/spr_inventario/spr_inventario.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
